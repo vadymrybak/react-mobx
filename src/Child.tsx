@@ -61,7 +61,7 @@ export default class Child extends React.Component<{main? : AppState}, {loading:
         console.log("Child render at "+(new Date()));
         return (
             <div>
-                <Dimmer active={this.state.loading} >
+                <Dimmer active={this.state.loading} inverted >
                     <Loader content='Loading' size='massive'/>
                 </Dimmer>
                 <Header as='h3' dividing={true}>

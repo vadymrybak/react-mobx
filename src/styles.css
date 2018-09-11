@@ -1,0 +1,7 @@
+.ui.secondary.menu .active.item {
+    color: #2185d0;
+}
+
+.ui.secondary.menu .active.item:hover {
+    color: #2185d0;
+}
